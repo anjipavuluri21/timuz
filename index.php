@@ -130,40 +130,27 @@
                                 <span class="block-title__bubbles"></span>
                                 <h3>About Us</h3>
                             </div><!-- /.block-title -->
-                            <div class="cta-three__box-wrap">
+                            <!--<div class="cta-three__box-wrap">-->
                                 <div class="cta-three__box">
-                                    <div class="cta-three__box-icon">
-                                        <!--<i class="zimed-icon-strategy"></i>-->
-                                    </div><!-- /.cta-three__box-icon -->
-                                    <div class="cta-three__box-content">
-                                        
-                                        <p>We’re TIMUZ a leading interactive entertainment and game development company
+                                    <p>We’re TIMUZ a leading interactive entertainment and game development company
 for the mobile world. We were established in the year 2010 in India giving our best
 in design, develop, test and publish a wide array of games crossing various genres
 like Casual, Puzzle, RPG, Skill, Arcade, Racing, Action, Adventure, Strategy, etc
 across all platforms.</p>
-                                        
-                                    </div><!-- /.cta-three__box-content -->
-                                </div><!-- /.cta-three__box -->
+                                     </div><!-- /.cta-three__box -->
                                 <div class="cta-three__box">
-                                    <div class="cta-three__box-icon">
-                                        <!--<i class="zimed-icon-training"></i>-->
-                                    </div><!-- /.cta-three__box-icon -->
-                                    <div class="cta-three__box-content">
-                                        
-                                        <p>We include social features, rigid and tidy code, uncompromising QA to deliver
+                                    <p>We include social features, rigid and tidy code, uncompromising QA to deliver
 products encompassing a high entertainment value. We believe these elements, in
 combination with a pinch of luck, have been making our games a successful
 endeavour, enabling us to fuel our dream of bringing better games to you.</p>
-                                    </div><!-- /.cta-three__box-content -->
-
+                                   
                                 </div><!-- /.cta-three__box -->
-                            </div><!-- /.cta-three__box-wrap -->
+                            <!--</div> /.cta-three__box-wrap -->
                             <a href="#" class="thm-btn cta-three__btn">Discover More</a><!-- /.thm-btn cta-three__btn -->
                         </div><!-- /.cta-three__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
-                <div class="numberCount" style="margin: 50px">
+                <div class="numberCount">
                 <h2 style="text-align: center">Achievements</h2>
                 <div class="row">
                     
@@ -205,7 +192,8 @@ endeavour, enabling us to fuel our dream of bringing better games to you.</p>
             <div class="container-fluid" id="ourgames" >
                 <div class="block-title text-center">
                     <span class="block-title__bubbles"></span>
-                    <h3>Our Games</h3>
+                    <p>Checkout Playstore</p>
+                    <h3>Games Screenshots</h3>
                 </div><!-- /.block-title -->
                 <div class="app-shot-one__carousel thm__owl-carousel owl-theme owl-carousel" data-options='{ "loop": true, "margin": 43, "nav": false, "dots": true, "autoWidth": false, "autoplay": true, "smartSpeed": 700, "autoplayTimeout": 5000, "autoplayHoverPause": true, "slideBy": 5, "responsive": { "0": { "items": 1 }, "480": { "items": 2 }, "600": { "items": 3 }, "991": { "items": 4 }, "1000": { "items": 5 }, "1200": { "items": 5 } } }'>
                     <div class="item">

@@ -42,8 +42,8 @@
 
 
 body {
-	font-family: var(--thm-font);
-	color: #7c7d8a;
+        font-family: var(--thm-font);
+        color: #7c7d8a;
 	font-size: 18px;
 	line-height: 34px;
 	font-weight: 500;
@@ -633,13 +633,13 @@ h6 {
 	margin-left: 45px;
 }
 
-.main-nav__main-navigation .main-nav__navigation-box>li {
+.main-nav__main-navigation .main-nav__navigation-box>li {f
 	position: relative;
 	padding: 38.75px 0px;
 }
 
 .main-nav__main-navigation .main-nav__navigation-box>li>a {
-	color: #f5a400;
+	color: white;   
 	font-size: 16px;
 	font-weight: 500;
 	font-family: var(--thm-font);
@@ -662,11 +662,13 @@ h6 {
 	transition: transform 500ms ease;
 }
 
-.main-nav__main-navigation .main-nav__navigation-box>li:hover>a,
-.main-nav__main-navigation .main-nav__navigation-box>li.current>a,
-.main-nav__main-navigation .main-nav__navigation-box>li.current-menu-item>a {
-	color: #E48632;
+.main-nav__navigation-box li a:hover{
+    color:#f5a400;
+    /*background-color: white;*/
+    
 }
+
+
 
 .main-nav__main-navigation .main-nav__navigation-box>li:hover>a::before,
 .main-nav__main-navigation .main-nav__navigation-box>li.current>a::before,
@@ -711,6 +713,7 @@ h6 {
 	display: block;
 	background-color: var(--thm-black);
 	font-size: 14px;
+        color:white;
 	font-family: var(--thm-font);
 	word-break: break-all;
 	padding-top: 9.5px;
@@ -721,9 +724,11 @@ h6 {
 	transition: all 500ms ease;
 }
 
-.main-nav__main-navigation .main-nav__navigation-box>li ul>li:hover>a {
-	color: #fff;
-	background-color: var(thm-black);
+
+.main-nav__navigation-box li ul>li>a:hover{
+    color:#f5a400;
+    /*background-color: white;*/
+    
 }
 
 
@@ -1306,6 +1311,13 @@ h6 {
 .cta-three__box {
 	display: flex;
 	position: relative;
+} 
+.cta-three p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 34px;
+    color: var(--thm-black);
+    font-weight: 500;
 }
 
 .cta-three__box+.cta-three__box {
@@ -1316,7 +1328,7 @@ h6 {
 	content: '';
 	width: 1px;
 	height: 110%;
-	background-color: #e8e8ef;
+	/*background-color: #e8e8ef;*/
 	position: absolute;
 	left: 37.5px;
 	top: 75px;
@@ -3829,7 +3841,7 @@ h6 {
     margin-top: 30px;
 }
 .numberCount {
-    margin: 50px;
+    margin: 110px;
     	color: var(--thm-black);
 
 }
